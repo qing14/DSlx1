@@ -1,27 +1,19 @@
 package com.bwie.asus.dslx1;
 
-import java.util.List;
-
 public class Bean {
 
 
     /**
-     * code : 200
-     * msg : success
-     * newslist : [{"ctime":"2018-11-27","title":"|必读|汝之蜜糖彼之砒霜:FDA警告1岁内婴儿不宜喂食蜂蜜","description":"全球医生组织","picUrl":"http://mmbiz.qpic.cn/mmbiz_jpg/E88Sm1WX6Y6yh2cbRiaQeOJEjCPNWGqxibdD7cibVaIiaEEeI7JtwZGIwuhAqvvzvUaKxKqN0ZRPnWhibIkmbvm6HVw/0?wx_fmt=jpeg","url":"https://mp.weixin.qq.com/s?src=11&timestamp=1543280403&ver=1269&signature=XMCKhVJmNyDwdpH-fs9XbxtP9QfraUp5EcXHGu8Orr5L5H0wIjmiCiS3I16pNanOvlfhA*Tv3tLBlhR*MP0zpeHYyBHrb4Y7r6IFQtkiI51jufWhTr6YAVbxnmfKxrbW&new=1"},{"ctime":"2018-11-27","title":"孩子打死不学习，就得用1句\u201c狠话\u201d解决，无数家长点赞！","description":"圣贤传统文化","picUrl":"http://mmbiz.qpic.cn/mmbiz_jpg/fwtibtCiaVCt6KIMRLC3ATXSOAhd1vG7q2U2gLDTeLicpjN6BCHAGxGaSY7CdCV26bdnTKm1ibkJWDksicrke0IGAicw/0?wx_fmt=jpeg","url":"https://mp.weixin.qq.com/s?src=11&timestamp=1543280418&ver=1269&signature=C5nAVpgcGb1pn9VJeDO2jTJtEWOU6OHmyFxNxFwcYVlwxto57-OMgo5S8vOj*rYkUggb-IdbhzKxcdD2i6IEYwihojKkCvWuB6M*8zV4kA5PSVz65PA8v48mlyYst*EO&new=1"},{"ctime":"2018-11-27","title":"每年70万例心梗，仅5%被及时规范救治！这两个\u201c120\u201d能救命\u2026","description":"医药汇通","picUrl":"http://mmbiz.qpic.cn/mmbiz_jpg/vvoKIgTTAYpibQSeYYeemuicclEMt429LjXHrO1eHyaaOS5uyrl8paMeMTqQeSCYKXcqaz19HtU8GGbOze9FJjsA/0?wx_fmt=jpeg","url":"https://mp.weixin.qq.com/s?src=11&timestamp=1543280403&ver=1269&signature=cuzcIY-0MlobvYkrGiiye2F2IIB9ito5fsUck3F7BQQOLAMjMQKp47PeI1jwVLXIt0G9hpEeM61tlMdnCQxzLFG3uBx99ES0EefXKC-erNk96IMj2-mYUWlMHlxyDdG9&new=1"},{"ctime":"2018-11-27","title":"敲黑板！一份权威信息采集表显示，科创板候选企业起码具备四大特征！","description":"上海证券报","picUrl":"http://mmbiz.qpic.cn/mmbiz_jpg/xbUOr6jbzYKDx1cffOrY818O2pYJLz8UZKkG1WMI1fLicdPIFz5niaDMxiamIbJWHIDjIJ25CqCHbpwoARROlR4bw/0?wx_fmt=jpeg","url":"https://mp.weixin.qq.com/s?src=11&timestamp=1543280408&ver=1269&signature=A9nobzPK9DzgAVP6WyBCPEr3UfdqH*A0lXMLbzUNMV94qJ1WmhDKT7L2wZyKPkp0wIZ3K97YUv3uXm6nMXKStdxg-YQTzn-Em2sIun65hN2qVSgRTHeZGP*bft3Ur*0L&new=1"},{"ctime":"2018-11-27","title":"受欢迎=车好？车主告诉你凯迪拉克XT4值不值得下手","description":"车漫部落","picUrl":"http://mmbiz.qpic.cn/mmbiz_jpg/ue7O9yhgLB0CKR4eiaTEFib6Pv2ddgWqUUZJUibtC08VKI31eTkNtZ50lAmlmPzCyHejKiabeUyl2NN9aiciaiauibx4Vw/0?wx_fmt=jpeg","url":"https://mp.weixin.qq.com/s?src=11&timestamp=1543280409&ver=1269&signature=j1ZrQNWvM37aVspN2SBHX03J2fqOGqOdduk5oeejDkR3d37H1fUYzKXVF1qqlQ3wu*WFhS8Nmz1DIR-9PI6qlVPXyb2Y09M3qpACz9Q0kdgDY7ndX4xv5S*dRm6BbRqi&new=1"},{"ctime":"2018-11-27","title":"一目了然，让心血管知识轻松好记！","description":"好医术心学院","picUrl":"http://mmbiz.qpic.cn/mmbiz_jpg/Sv6neLWjnqoDmgoBDfG7VIYxxU7qwwA4F2dqsVoOfbFxddicmlhd2s5LlJXEx7YPKjZRapOBibMuyzz9bKXXAwww/0?wx_fmt=jpeg","url":"https://mp.weixin.qq.com/s?src=11&timestamp=1543280411&ver=1269&signature=0kL2rzleFgd72vLJc-HuuYOCSJZpElbmsFFEdVKH-FL-IjE83VQSy1x5imZ90DKmgtEphNO5HwfAVC6AHUnwiZOFW4UeaJNzx9PCsrTbHvkLCVA3jVUe-W4i8NCLVxMd&new=1"}]
+     * msg :
+     * seller : {"description":"我是商家17","icon":"http://120.27.23.105/images/icon.png","name":"商家17","productNums":999,"score":5,"sellerid":17}
+     * code : 0
+     * data : {"bargainPrice":111.99,"createtime":"2017-10-14T21:39:05","detailUrl":"https://item.m.jd.com/product/4719303.html?utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=QQfriends","images":"https://m.360buyimg.com/n0/jfs/t9004/210/1160833155/647627/ad6be059/59b4f4e1N9a2b1532.jpg!q70.jpg|https://m.360buyimg.com/n0/jfs/t7504/338/63721388/491286/f5957f53/598e95f1N7f2adb87.jpg!q70.jpg|https://m.360buyimg.com/n0/jfs/t7441/10/64242474/419246/adb30a7d/598e95fbNd989ba0a.jpg!q70.jpg","itemtype":1,"pid":1,"price":118,"pscid":1,"salenum":0,"sellerid":17,"subhead":"每个中秋都不能简单，无论身在何处，你总需要一块饼让生活更圆满，京东月饼让爱更圆满京东自营，闪电配送，更多惊喜，快用手指戳一下","title":"北京稻香村 稻香村中秋节月饼 老北京月饼礼盒655g"}
      */
 
-    private int code;
     private String msg;
-    private List<NewslistBean> newslist;
-
-    public int getCode() {
-        return code;
-    }
-
-    public void setCode(int code) {
-        this.code = code;
-    }
+    private SellerBean seller;
+    private String code;
+    private DataBean data;
 
     public String getMsg() {
         return msg;
@@ -31,44 +23,46 @@ public class Bean {
         this.msg = msg;
     }
 
-    public List<?> getNewslist() {
-        return newslist;
+    public SellerBean getSeller() {
+        return seller;
     }
 
-    public void setNewslist(List<NewslistBean> newslist) {
-        this.newslist = newslist;
+    public void setSeller(SellerBean seller) {
+        this.seller = seller;
     }
 
-    public static class NewslistBean {
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public DataBean getData() {
+        return data;
+    }
+
+    public void setData(DataBean data) {
+        this.data = data;
+    }
+
+    public static class SellerBean {
         /**
-         * ctime : 2018-11-27
-         * title : |必读|汝之蜜糖彼之砒霜:FDA警告1岁内婴儿不宜喂食蜂蜜
-         * description : 全球医生组织
-         * picUrl : http://mmbiz.qpic.cn/mmbiz_jpg/E88Sm1WX6Y6yh2cbRiaQeOJEjCPNWGqxibdD7cibVaIiaEEeI7JtwZGIwuhAqvvzvUaKxKqN0ZRPnWhibIkmbvm6HVw/0?wx_fmt=jpeg
-         * url : https://mp.weixin.qq.com/s?src=11&timestamp=1543280403&ver=1269&signature=XMCKhVJmNyDwdpH-fs9XbxtP9QfraUp5EcXHGu8Orr5L5H0wIjmiCiS3I16pNanOvlfhA*Tv3tLBlhR*MP0zpeHYyBHrb4Y7r6IFQtkiI51jufWhTr6YAVbxnmfKxrbW&new=1
+         * description : 我是商家17
+         * icon : http://120.27.23.105/images/icon.png
+         * name : 商家17
+         * productNums : 999
+         * score : 5
+         * sellerid : 17
          */
 
-        private String ctime;
-        private String title;
         private String description;
-        private String picUrl;
-        private String url;
-
-        public String getCtime() {
-            return ctime;
-        }
-
-        public void setCtime(String ctime) {
-            this.ctime = ctime;
-        }
-
-        public String getTitle() {
-            return title;
-        }
-
-        public void setTitle(String title) {
-            this.title = title;
-        }
+        private String icon;
+        private String name;
+        private int productNums;
+        private int score;
+        private int sellerid;
 
         public String getDescription() {
             return description;
@@ -78,20 +72,170 @@ public class Bean {
             this.description = description;
         }
 
-        public String getPicUrl() {
-            return picUrl;
+        public String getIcon() {
+            return icon;
         }
 
-        public void setPicUrl(String picUrl) {
-            this.picUrl = picUrl;
+        public void setIcon(String icon) {
+            this.icon = icon;
         }
 
-        public String getUrl() {
-            return url;
+        public String getName() {
+            return name;
         }
 
-        public void setUrl(String url) {
-            this.url = url;
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public int getProductNums() {
+            return productNums;
+        }
+
+        public void setProductNums(int productNums) {
+            this.productNums = productNums;
+        }
+
+        public int getScore() {
+            return score;
+        }
+
+        public void setScore(int score) {
+            this.score = score;
+        }
+
+        public int getSellerid() {
+            return sellerid;
+        }
+
+        public void setSellerid(int sellerid) {
+            this.sellerid = sellerid;
+        }
+    }
+
+    public static class DataBean {
+        /**
+         * bargainPrice : 111.99
+         * createtime : 2017-10-14T21:39:05
+         * detailUrl : https://item.m.jd.com/product/4719303.html?utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=QQfriends
+         * images : https://m.360buyimg.com/n0/jfs/t9004/210/1160833155/647627/ad6be059/59b4f4e1N9a2b1532.jpg!q70.jpg|https://m.360buyimg.com/n0/jfs/t7504/338/63721388/491286/f5957f53/598e95f1N7f2adb87.jpg!q70.jpg|https://m.360buyimg.com/n0/jfs/t7441/10/64242474/419246/adb30a7d/598e95fbNd989ba0a.jpg!q70.jpg
+         * itemtype : 1
+         * pid : 1
+         * price : 118
+         * pscid : 1
+         * salenum : 0
+         * sellerid : 17
+         * subhead : 每个中秋都不能简单，无论身在何处，你总需要一块饼让生活更圆满，京东月饼让爱更圆满京东自营，闪电配送，更多惊喜，快用手指戳一下
+         * title : 北京稻香村 稻香村中秋节月饼 老北京月饼礼盒655g
+         */
+
+        private double bargainPrice;
+        private String createtime;
+        private String detailUrl;
+        private String images;
+        private int itemtype;
+        private int pid;
+        private int price;
+        private int pscid;
+        private int salenum;
+        private int sellerid;
+        private String subhead;
+        private String title;
+
+        public double getBargainPrice() {
+            return bargainPrice;
+        }
+
+        public void setBargainPrice(double bargainPrice) {
+            this.bargainPrice = bargainPrice;
+        }
+
+        public String getCreatetime() {
+            return createtime;
+        }
+
+        public void setCreatetime(String createtime) {
+            this.createtime = createtime;
+        }
+
+        public String getDetailUrl() {
+            return detailUrl;
+        }
+
+        public void setDetailUrl(String detailUrl) {
+            this.detailUrl = detailUrl;
+        }
+
+        public String getImages() {
+            return images;
+        }
+
+        public void setImages(String images) {
+            this.images = images;
+        }
+
+        public int getItemtype() {
+            return itemtype;
+        }
+
+        public void setItemtype(int itemtype) {
+            this.itemtype = itemtype;
+        }
+
+        public int getPid() {
+            return pid;
+        }
+
+        public void setPid(int pid) {
+            this.pid = pid;
+        }
+
+        public int getPrice() {
+            return price;
+        }
+
+        public void setPrice(int price) {
+            this.price = price;
+        }
+
+        public int getPscid() {
+            return pscid;
+        }
+
+        public void setPscid(int pscid) {
+            this.pscid = pscid;
+        }
+
+        public int getSalenum() {
+            return salenum;
+        }
+
+        public void setSalenum(int salenum) {
+            this.salenum = salenum;
+        }
+
+        public int getSellerid() {
+            return sellerid;
+        }
+
+        public void setSellerid(int sellerid) {
+            this.sellerid = sellerid;
+        }
+
+        public String getSubhead() {
+            return subhead;
+        }
+
+        public void setSubhead(String subhead) {
+            this.subhead = subhead;
+        }
+
+        public String getTitle() {
+            return title;
+        }
+
+        public void setTitle(String title) {
+            this.title = title;
         }
     }
 }
